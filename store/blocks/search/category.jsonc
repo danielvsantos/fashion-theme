@@ -1,0 +1,24 @@
+{
+    "store.search#category": {
+        "blocks": [
+            "search-result-layout"
+        ],
+        "props": {
+            "context": {
+                "skusFilter": "FIRST_AVAILABLE",
+                "simulationBehavior": "default",
+                "hideUnavailableItems": "true"
+            }
+        }
+    },
+    "store.search#subcategory": {
+        "blocks": ["search-result-layout"],
+        "props": {
+          "context": {
+            "skusFilter": "FIRST_AVAILABLE",
+            "simulationBehavior": "default",
+            "hideUnavailableItems": "true"
+          }
+        }
+      }
+}

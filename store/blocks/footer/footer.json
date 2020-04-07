@@ -1,0 +1,169 @@
+{
+  "footer": {
+    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+  },
+  "footer-layout.desktop": {
+    "children": [
+      "flex-layout.row#footer-1-desktop",
+      "flex-layout.row#footer-2-desktop"
+    ]
+  },
+  "flex-layout.row#footer-1-desktop": {
+    "children": [
+      "flex-layout.col#footer-1-desktop",
+      "footer-spacer",
+      "vtex.menu@2.x:menu#footer-column1",
+      "vtex.menu@2.x:menu#footer-column2",
+      "vtex.menu@2.x:menu#footer-column3",
+      "footer-spacer",
+      "flex-layout.col#footer-2-desktop"
+    ],
+    "props": {
+      "blockClass": "menu-row",
+      "paddingTop": 6,
+      "paddingBottom": 3
+    }
+  },
+  "flex-layout.col#footer-1-desktop": {
+    "children": [
+      "logo",
+      "locale-switcher" 
+    ]
+  },
+  "flex-layout.col#footer-2-desktop": {
+    "children": [
+      "flex-layout.row#app-download",
+      "flex-layout.row#footer-contact",
+      "social-networks" 
+    ]
+  },
+  "flex-layout.row#app-download": {
+    "children": [
+      "image#playstore",
+      "image#appstore"
+    ],
+    "props": {
+      "blockClass": "appdownload-footer-row",
+      "paddingTop": 6,
+      "paddingBottom": 3
+    }
+  },
+  "image#playstore": {
+    "props": {
+      "src": "https://www.ametllerorigen.com/arquivos/googlePlay.png?v=636994657225100000",
+      "maxHeight": "24px"
+    },
+    "title": "Google Play Store"
+  },
+  "image#appstore": {
+    "props": {
+      "src": "https://www.ametllerorigen.com/arquivos/appStore.png?v=636994657221500000",
+      "maxHeight": "24px"
+    },
+    "title": "Apple Store"
+  },
+  "flex-layout.row#footer-contact": {
+    "children": [
+      "image#contact",
+      "rich-text#contact"
+    ],
+    "props": {
+      "blockClass": "contact-footer-row",
+      "paddingTop": 6,
+      "paddingBottom": 3,
+      "verticalAlign": "middle"
+    }
+  },
+  "image#contact": {
+    "props": {
+      "src": "https://www.ametllerorigen.com/arquivos/phone-call.png?v=636993845839200000",
+      "maxHeight": "40px"
+    },
+    "title": "Call us"
+  },
+  "rich-text#contact": {
+    "props": {
+      "text": "[900 877 111](tel:900877111)",
+      "blockClass": "contact"
+    },
+    "title": "Call us"
+  },
+  "social-networks": {
+    "props": {
+      "socialNetworks": [
+        {
+          "name": "Facebook",
+          "url": "https://www.facebook.com/ametllerorigen/"
+        },
+        {
+          "name": "Instagram",
+          "url": "https://www.instagram.com/ametllerorigen/"
+        },
+        {
+          "name": "Twitter",
+          "url": "https://twitter.com/AmetllerOrigen"
+        },
+        {
+          "name": "Youtube",
+          "url": "https://www.youtube.com/c/AMETLLERORIGEN_AO"
+        },
+        {
+          "name": "Linkedin",
+          "url": "https://www.linkedin.com/company/grup-ametller-origen/"
+        }
+      ]
+    }
+  },
+
+  "flex-layout.row#footer-2-desktop": {
+    "children": ["accepted-payment-methods"],
+    "props": {
+      "blockClass": "payment-methods"
+    }
+  },
+  "accepted-payment-methods": {
+    "props": {
+      "paymentMethods": ["MasterCard", "Visa", "PayPal"]
+    }
+  },
+  "footer-layout.mobile": {
+    "children": [
+      "flex-layout.row#1-footer-mobile",
+      "flex-layout.row#2-footer-mobile"
+    ]
+  },
+  "flex-layout.row#2-footer-mobile": {
+    "children": ["flex-layout.col#footer-1-mobile"],
+    "props": {
+      "blockClass": "payment-methods",
+      "paddingTop": 4,
+      "paddingBottom": 4
+    }
+  },
+  "flex-layout.col#footer-1-mobile": {
+    "children": [
+      "accepted-payment-methods",
+      "social-networks",
+      "rich-text#footer-mobile"
+    ],
+    "props": {
+      "blockClass": "payment-methods",
+      "paddingTop": 4,
+      "paddingBottom": 4,
+      "rowGap": 4
+    }
+  },
+  "flex-layout.row#1-footer-mobile": {
+    "props": {
+      "paddingTop": 4,
+      "paddingBottom": 4
+    },
+    "children": ["vtex.menu@2.x:menu#footer-mobile"]
+  },
+  "rich-text#footer-mobile": {
+    "props": {
+      "text": "All stock and product photos are from photos.icons8.com",
+      "blockClass": "footer"
+    }
+  }
+}

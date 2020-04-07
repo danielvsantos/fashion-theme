@@ -1,0 +1,251 @@
+.flexRowContent--menu-link,
+.flexRowContent--main-header {
+  padding: 0 0.5rem;
+}
+
+@media screen and (min-width: 40em) {
+  .flexRowContent--menu-link,
+  .flexRowContent--main-header {
+    padding: 0 1rem;
+  }
+}
+@media screen and (min-width: 80rem) {
+  .flexRowContent--menu-link,
+  .flexRowContent--main-header {
+    padding: 0 0.25rem;
+  }
+}
+/* MINICART */
+
+.flexRowContent--minicart-footer {
+  background-color: #f7f7f1;
+}
+
+/* Department */
+
+.flexRowContent--department-tile {
+  color: #3D350B;
+}
+
+/* Homepage */
+
+.flexCol--main-banner {
+  padding: 0 0 20px 9px;
+}
+
+/* Menu & Header */
+.flexRowContent--menu-link {
+  background-color: #03044e;
+  color: #fff;
+}
+
+.flexRowContent--main-header {
+  background-color: #f7f7f1;
+}
+
+.flexRowContent--main-header-category-menu {
+  background-color: #918470;
+}
+
+.flexRowContent--main-header-mobile {
+  align-items: center;
+  padding: 0.625rem 0.5rem;
+  background-color: #f7f7f1;
+}
+
+.flexRowContent--menu-link :global(.vtex-menu-2-x-styledLink) {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.flexRowContent--main-header :global(.vtex-menu-2-x-styledLink) {
+  color: #3D350B;
+  font-size: 14px;
+}
+
+/* Deals section */
+
+.flexRow--deals {
+  background-color: #ffffff;
+  font-size: 14px;
+  padding: 14px 0px;
+}
+
+.flexRow--deals .stretchChildrenWidth {
+  align-items: center;
+}
+
+.flexRow--deals .flexCol {
+  align-items: center;
+}
+
+.flexRowContent--deals {
+  flex-wrap: wrap;
+}
+
+.flexRow--deals .flexCol {
+  align-items: center;
+}
+
+/* General*/
+
+.flexCol--filterCol {
+  max-width: 500px;
+  min-width: 230px;
+}
+
+
+/* Search Result*/
+
+.flexCol--productCountCol {
+  align-items: flex-start;
+}
+
+.flexCol--orderByCol {
+  align-items: flex-end;
+}
+
+.flexCol--orderByMobileCol {
+  width: 42%;
+}
+
+.flexCol--filterMobileCol {
+  width: 38%;
+}
+
+.flexCol--switcherMobileCol {
+  width: 20%;
+}
+
+.flexRow--quickviewMainRow {
+  display: flex;
+  max-height: 100%;
+}
+
+.flexColChild--quickviewDetails:first-child {
+  overflow-y: auto;
+  height: 66% !important;
+  overflow-x: hidden;
+}
+
+.flexColChild--quickviewDetails:last-child {
+  height: 34% !important;
+}
+
+.flexRow--addToCartRow {
+  padding-bottom: 1rem;
+}
+
+.flexRow--rowGalleryGrid {
+  max-width: 1280px;
+  margin: 0 auto ;
+}
+
+.flexRow--rowGalleryGrid :global(.vtex-store-components-3-x-container) {
+  margin: 0;
+  max-width: 100%;
+}
+.flexRowContent--rowGalleryGrid {
+  margin-bottom: 20px;
+}
+
+
+:global(.vtex-flex-layout-0-x-flexCol--ColSmallGalleryGrid){
+  flex:grid!important;
+  grid-template-columns: 1fr 1fr;
+}
+
+/* CART */
+
+/* Container */
+
+.flexRow--cartContainer {
+  margin: 0 1em;
+}
+
+/* S */
+@media screen and (min-width: 39em) and (max-width: 40em) {
+  .flexRow--cartContainer {
+    margin: 0 auto;
+    width: 37em;
+  }
+}
+
+/* M */
+@media screen and (min-width: 40em) and (max-width: 61em) {
+  .flexRow--cartContainer {
+    margin: 0 1.5em;
+  }
+}
+
+@media screen and (min-width: 61em) and (max-width: 64em) {
+  .flexRow--cartContainer {
+    margin: 0 auto;
+    width: 58em;
+  }
+}
+
+/* L */
+@media screen and (min-width: 64em) and (max-width: 78em) {
+  .flexRow--cartContainer {
+    margin: 0 3em;
+  }
+}
+
+@media screen and (min-width: 78em) and (max-width: 80em) {
+  .flexRow--cartContainer {
+    margin: 0 auto;
+    width: 72em;
+  }
+}
+
+/* XL */
+@media screen and (min-width: 80em) and (max-width: 104em) {
+  .flexRow--cartContainer {
+    margin: 0 4em;
+  }
+}
+
+@media screen and (min-width: 104em) {
+  .flexRow--cartContainer {
+    margin: 0 auto;
+    width: 96em;
+  }
+}
+
+/* Go to Checkout button */
+
+.flexRow--goToCheckout {
+  background-color: #fff;
+}
+
+/* Sidebar */
+
+.flexRow--sidebar {
+  margin-top: 5.84em;
+}
+
+/* M, L */
+@media screen and (min-width: 40em) and (max-width: 80em) {
+  .flexCol--sidebarContent {
+    min-width: 16em;
+    max-width: 16em;
+  }
+}
+
+/* L+ */
+@media screen and (min-width: 64em) {
+  .flexRow--sidebar {
+    margin-top: 7em;
+  }
+}
+
+
+/* XL+ */
+@media screen and (min-width: 80em) {
+  .flexCol--sidebarContent {
+    min-width: 24em;
+    max-width: 24em;
+  }
+}
+

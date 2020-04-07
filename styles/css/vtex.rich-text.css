@@ -1,0 +1,167 @@
+/* GENERAL */
+
+.container--link {
+  justify-content: center;
+}
+
+/* HEADER */
+
+.link--register {
+  color: #3D350B;
+}
+
+/* DEALS */
+
+.container--deals {
+  color: #ffffff;
+  text-align: center;
+  justify-content: center;
+}
+.container--deals .paragraph {
+  margin: 0;
+}
+/* HOMEPAGE */
+
+.container--home-shelf-title {
+  color: #3D350B;
+  justify-content: center;
+  text-align: center;
+  background-color: #F7F7F1;
+  font-size: 26px;
+}
+.container--home-bannerrow-title {
+  color: #3D350B;
+  justify-content: center;
+  text-align: center;
+  font-size: 26px;
+}
+
+.headingLevel2--home-shelf-title {
+  font-weight: 800;
+}
+
+
+
+.container--link .paragraph {
+  text-align: center;
+  max-width: 540px;
+  padding-top: 36px;
+  padding-bottom: 84px;
+  color: #03034E;
+}
+
+.container--link .strong {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.container--link .link {
+  text-decoration: none;
+  font-size: 36px;
+  font-weight: 300;
+  color: #03034E;
+}
+
+
+/* DEPARTMENT */
+
+.container--department-shelf-title {
+  color: #3D350B;
+  justify-content: center;
+  text-align: center;
+  background-color: #F7F7F1;
+  font-size: 26px;
+}
+.container--department-bannerrow-title {
+  color: #3D350B;
+  justify-content: center;
+  text-align: center;
+  font-size: 26px;
+}
+
+
+/* CATEGORY */
+
+.container--category-shelf-title {
+  color: #3D350B;
+  justify-content: center;
+  text-align: center;
+}
+
+.headingLevel2--category-shelf-title {
+  font-weight: 800;
+}
+
+
+/* CATEGORY */
+.paragraph--deals {
+  color: #3D350B;
+}
+
+
+/* FOOTER */
+
+.link--contact {
+  color: #3D350B;
+}
+
+.container--title {
+  color: #3D350B;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+@media only screen and (min-width: 640px) {
+  
+  .container--about {
+    max-width: 85%;
+  }
+
+  .container--title {
+    color: #3D350B;
+    font-size: 40px;
+    font-weight: 700;
+    max-width: 60%;
+  }
+
+  .container--title .paragraph {
+    line-height: 1.3em;
+  }
+}
+
+/* PROMOCIONS */
+
+.paragraph--h2-promo-page-title {
+  color: #3D350B;
+  font-size: 50px;
+}
+
+.container--h2-promo-page-title {
+  justify-content: center;
+}
+
+/* INSTITUTIONAL */
+
+.paragraph--h2-institutional-page-title{
+    color: #3D350B;
+    font-size: 26px;
+    text-align: center;
+}
+
+.paragraph--institutional-page-body{
+  color: #3D350B;
+    font-size: 14px;
+    justify-content: center;
+
+}
+.heading--origin-page-title{
+  color: #3D350B;
+  font-size: 50px;
+  justify-content: center;
+}
+.container--origin-page-about{
+  color: #3D350B;
+  font-size: 18px;
+  justify-content: center;
+}

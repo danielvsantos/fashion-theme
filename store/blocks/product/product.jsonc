@@ -1,0 +1,234 @@
+{
+  "store.product": {
+    "children": [
+      "responsive-layout.desktop",
+      "responsive-layout.mobile"
+    ]
+  },
+  "responsive-layout.desktop":{
+    "children": [
+      "flex-layout.row#product-breadcrumb",
+      "flex-layout.row#product-main",
+      "flex-layout.row#product-specifications",
+      "shelf.relatedProducts#product",
+      "product-reviews",
+      "product-questions-and-answers"
+    ]
+  },
+  "flex-layout.row#product-breadcrumb": {
+    "props": {
+      "marginTop": 4
+    },
+    "children": ["breadcrumb"]
+  },
+  "flex-layout.row#description": {
+    "props": {
+      "marginBottom": 7
+    },
+    "children": ["product-description"]
+  },
+
+  "flex-layout.row#product-main": {
+    "props": {
+      "colGap": 7,
+      "rowGap": 7,
+      "marginTop": 4,
+      "marginBottom": 7,
+      "paddingTop": 7,
+      "paddingBottom": 7
+    },
+    "children": ["flex-layout.col#stack", "flex-layout.col#right-col"]
+  },
+
+  "stack-layout": {
+    "props": {
+      "blockClass": "product"
+    },
+    "children": [
+      "flex-layout.row#product-image",
+      "product-bookmark"
+    ]
+  },
+  "flex-layout.row#product-specifications": {
+    "children": [
+      "tab-layout#specifications"
+    ]
+  },
+  "flex-layout.col#stack": {
+    "children": ["stack-layout"],
+    "props": {
+      "width": "50%",
+      "rowGap": 0
+    }
+  },
+  "flex-layout.row#product-image": {
+    "children": ["product-images"]
+  },
+  "product-images": {
+    "props": {
+      "aspectRatio": {
+        "desktop": "auto",
+        "phone": "16:9"
+      },
+      "displayThumbnailsArrows": true
+    }
+  },
+  "flex-layout.col#right-col": {
+    "props": {
+      "preventVerticalStretch": true,
+      "rowGap": 0
+    },
+    "children": [
+      "vtex.store-components:product-name",
+      "product-separator",
+      "flex-layout.row#description",
+      "product-separator",
+      "product-rating-summary",
+      "flex-layout.row#price-qty-buy",
+      "product-separator",
+      "product-specification-badges#origen",
+      "product-separator",
+      "product-specification-badges#ingredientes",
+      "product-separator",
+      "product-specification-badges#nutricional",
+      "product-separator",
+      "product-specification-badges#weight",
+      "product-assembly-options",
+      "product-gifts",
+      "availability-subscriber"
+    ]
+  },
+  "flex-layout.row#price-qty-buy":{
+    "children": [
+      "flex-layout.col#price",
+      "flex-layout.col#qty",
+      "flex-layout.col#buy"
+    ]
+  },
+  "flex-layout.col#price":{
+    "children":[
+      "product-price#product-details"
+    ],
+    "props": {
+      "verticalAlign": "middle"
+    }
+  },
+  "flex-layout.col#qty":{
+    "children":[
+      "product-quantity"
+    ],
+    "props": {
+      "verticalAlign": "middle"
+    }
+  },
+  "flex-layout.col#buy":{
+    "children":[
+      "flex-layout.row#buy-button"
+    ],
+    "props": {
+      "verticalAlign": "middle"
+    }
+  },
+  "product-price#product-details": {
+    "props": {
+      "showSavings": true,
+      "showListPrice": true
+    }
+  },
+
+  "flex-layout.row#buy-button": {
+    "props": {
+      "marginTop": 4,
+      "marginBottom": 7
+    },
+    "children": ["add-to-cart-button"]
+  },
+  "product-specification-badges#origen": {
+    "props": {
+      "specificationGroupName": "allSpecifications",
+      "blockClass": "badges",
+      "orientation": "horizontal",
+      "specificationsOptions": [{
+        "displayValue": "SPECIFICATION_NAME",
+        "specificationName": "Origen"
+      },
+      {
+        "displayValue": "SPECIFICATION_VALUE",
+        "specificationName": "Origen"
+      }
+    ]
+    }
+  },
+  "product-specification-badges#ingredientes": {
+    "props": {
+      "specificationGroupName": "allSpecifications",
+      "blockClass": "badges",
+      "orientation": "horizontal",
+      "specificationsOptions": [{
+        "displayValue": "SPECIFICATION_NAME",
+        "specificationName": "Ingredientes"
+      },
+      {
+        "displayValue": "SPECIFICATION_VALUE",
+        "specificationName": "Ingredientes"
+      }
+    ]
+    }
+  },
+  "product-specification-badges#nutricional": {
+    "props": {
+      "specificationGroupName": "allSpecifications",
+      "blockClass": "badges",
+      "orientation": "horizontal",
+      "specificationsOptions": [{
+        "displayValue": "Informació Nutricional"
+      },
+      {
+        "displayValue": "SPECIFICATION_VALUE",
+        "specificationName": "Nutrients"
+      }
+    ]
+    }
+  }, 
+  "product-specification-badges#weight": {
+    "props": {
+      "specificationGroupName": "allSpecifications",
+      "blockClass": "badges",
+      "orientation": "horizontal",
+      "specificationsOptions": [{
+        "displayValue": "SPECIFICATION_NAME",
+        "specificationName": "Peso aproximado"
+      },
+      {
+        "displayValue": "SPECIFICATION_VALUE",
+        "specificationName": "Peso aproximado"
+      }
+    ]
+    }
+  },
+  "share#default": {
+    "props": {
+      "social": {
+        "Facebook": true,
+        "WhatsApp": true,
+        "Twitter": false,
+        "Pinterest": true
+      }
+    }
+  },
+  "shelf.relatedProducts#product":{
+    "blocks": [
+      "product-summary"
+    ],
+    "props": {
+      "recommendation": "view"
+    }
+  },
+  "responsive-layout.mobile":{
+    "children": [
+      "flex-layout.row#product-breadcrumb",
+      "flex-layout.row#product-main",
+      "tab-layout#specifications"
+    ]
+  }
+}

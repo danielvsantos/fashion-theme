@@ -1,0 +1,2523 @@
+{
+  "flex-layout.col#category-menu": {
+    "props": {
+      "verticalAlign": "middle",
+      "width": 70
+    },
+    "children": ["vtex.menu@2.x:menu#category-menu"],
+    "title": "Category Menu"
+  },
+  
+  "vtex.menu@2.x:menu#category-menu": {
+    "props": {
+      "experimentalOptimizeRendering": true
+    },
+    "children": [
+      "menu-item#department-1",
+      "menu-item#department-2",
+      "menu-item#department-3",
+      "menu-item#department-4",
+      "menu-item#department-5",
+      "menu-item#department-6",
+      "menu-item#department-7",
+      "menu-item#department-8",
+      "menu-item#department-9",
+      "menu-item#department-10"
+    ],
+    "title": "Category Mega Menu"
+  },
+  "menu-item#department-1": {
+    "props": {
+      "id": "menu-item-department-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/verdura-i-hortalissa",
+        "noFollow": true,
+        "tagTitle": "VERDURA",
+        "text": "VERDURA"
+      },
+      "blockClass":"header-department-title"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#department-1"
+    ]
+  },
+  "vtex.menu@2.x:submenu#department-1": {
+    "props": {
+      "width": "100%"
+      
+    },
+    "children": [
+      "flex-layout.row#department-1-submenu"
+    ]
+  },
+  "flex-layout.row#department-1-submenu": {
+    "children": [
+      "flex-layout.col#department-1-submenu-col-1",
+      "flex-layout.col#department-1-submenu-col-2"
+    ]
+  },
+  "flex-layout.col#department-1-submenu-col-1": {
+    "children": [
+      "vtex.menu@2.x:menu#department-1-submenu"
+    ],
+    "title": "Left Category Links"
+  },
+  "vtex.menu@2.x:menu#department-1-submenu": {
+    "props": {
+      "orientation": "vertical",
+      "tagTitle": "Submenu"
+    },
+    "children": [
+      "menu-item#department-1-category-1",
+      "menu-item#department-1-category-2",
+      "menu-item#department-1-category-3",
+      "menu-item#department-1-category-4",
+      "menu-item#department-1-category-5",
+      "menu-item#department-1-category-6",
+      "menu-item#department-1-category-7",
+      "menu-item#department-1-category-8",
+      "menu-item#department-1-category-9",
+      "menu-item#department-1-category-10",
+      "menu-item#department-1-category-11",
+      "menu-item#department-1-category-12",
+      "menu-item#department-1-category-13",
+      "menu-item#department-1-category-14",
+      "menu-item#department-1-category-15"
+    ]
+  },
+  "menu-item#department-1-category-1": {
+    "props": {
+      "id": "menu-item-department-1-category-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/verdura-i-hortalissa",
+        "noFollow": true,
+        "tagTitle": "VEURE TOTS",
+        "text": "VEURE TOTS"
+      }
+    }
+  },
+  "menu-item#department-1-category-2": {
+    "props": {
+      "id": "menu-item-department-1-category-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/verdura-i-hortalissa/alls-i-cebes",
+        "noFollow": true,
+        "tagTitle": "ALLS I CEBES",
+        "text": "ALLS I CEBES"
+      }
+    }
+  },
+  "menu-item#department-1-category-3": {
+    "props": {
+      "id": "menu-item-department-1-category-3",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/verdura-i-hortalissa/alvocat",
+        "noFollow": true,
+        "tagTitle": "ALVOCAT",
+        "text": "ALVOCAT"
+      }
+    }
+  },
+  "menu-item#department-1-category-4": {
+    "props": {
+      "id": "menu-item-department-1-category-4",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/verdura-i-hortalissa/bolets",
+        "noFollow": true,
+        "tagTitle": "BOLETS",
+        "text": "BOLETS"
+      }
+    }
+  },
+  "menu-item#department-1-category-5": {
+    "props": {
+      "id": "menu-item-department-1-category-5",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/verdura-i-hortalissa/carbassons-i-carbassa",
+        "noFollow": true,
+        "tagTitle": "CARBASSONS I CARBASSA",
+        "text": "CARBASSONS I CARBASSA"
+      }
+    }
+  },
+  "menu-item#department-1-category-6": {
+    "props": {
+      "id": "menu-item-department-1-category-6",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/verdura-i-hortalissa/cols-coliflor-i-broquil",
+        "noFollow": true,
+        "tagTitle": "COLS, COLIFLOR I BRÒQUIL",
+        "text": "COLS, COLIFLOR I BRÒQUIL"
+      }
+    }
+  },
+  "menu-item#department-1-category-7": {
+    "props": {
+      "id": "menu-item-department-1-category-7",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/verdura-i-hortalissa/enciams-bledes-i-espinacs",
+        "noFollow": true,
+        "tagTitle": "ENCIAMS, BLEDES I ESPINACS",
+        "text": "ENCIAMS, BLEDES I ESPINACS"
+      }
+    }
+  },
+  "menu-item#department-1-category-8": {
+    "props": {
+      "id": "menu-item-department-1-category-8",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/verdura-i-hortalissa/herbes-aromatiques",
+        "noFollow": true,
+        "tagTitle": "HERBES AROMÀTIQUES",
+        "text": "HERBES AROMÀTIQUES"
+      }
+    }
+  },
+  "menu-item#department-1-category-9": {
+    "props": {
+      "id": "menu-item-department-1-category-9",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/verdura-i-hortalissa/pastanagues-naps-i-raves",
+        "noFollow": true,
+        "tagTitle": "PASTANAGUES, NAPS I RAVES",
+        "text": "PASTANAGUES, NAPS I RAVES"
+      }
+    }
+  },
+  "menu-item#department-1-category-10": {
+    "props": {
+      "id": "menu-item-department-1-category-10",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/verdura-i-hortalissa/patata-i-moniato",
+        "noFollow": true,
+        "tagTitle": "PATATA I MONIATO",
+        "text": "PATATA I MONIATO"
+      }
+    }
+  },
+  "menu-item#department-1-category-11": {
+    "props": {
+      "id": "menu-item-department-1-category-11",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/verdura-i-hortalissa/pebrots-alberginies-i-carxofes",
+        "noFollow": true,
+        "tagTitle": "PEBROTS, ALBERGÍNIES I CARXOFES",
+        "text": "PEBROTS, ALBERGÍNIES I CARXOFES"
+      }
+    }
+  },
+  "menu-item#department-1-category-12": {
+    "props": {
+      "id": "menu-item-department-1-category-12",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/verdura-i-hortalissa/pesols-mongetes-i-esparrecs",
+        "noFollow": true,
+        "tagTitle": "PÈSOLS, MONGETES I ESPÀRRECS",
+        "text": "PÈSOLS, MONGETES I ESPÀRRECS"
+      }
+    }
+  },
+  "menu-item#department-1-category-13": {
+    "props": {
+      "id": "menu-item-department-1-category-13",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/verdura-i-hortalissa/porros-api-i-fonoll",
+        "noFollow": true,
+        "tagTitle": "PORROS, API I FONOLL",
+        "text": "PORROS, API I FONOLL"
+      }
+    }
+  },
+  "menu-item#department-1-category-14": {
+    "props": {
+      "id": "menu-item-department-1-category-14",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/verdura-i-hortalissa/tomaquets-i-cogombres",
+        "noFollow": true,
+        "tagTitle": "TOMÀQUETS I COGOMBRES",
+        "text": "TOMÀQUETS I COGOMBRES"
+      }
+    }
+  },
+  "menu-item#department-1-category-15": {
+    "props": {
+      "id": "menu-item-department-1-category-15",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/verdura-i-hortalissa/verdura-tallada",
+        "noFollow": true,
+        "tagTitle": "VERDURA TALLADA",
+        "text": "VERDURA TALLADA"
+      }
+    }
+  },
+  "flex-layout.col#department-1-submenu-col-2": {
+    "children": [
+      "flex-layout.row#department-1-banner-1",
+      "flex-layout.row#department-1-banner-2",
+      "flex-layout.row#department-1-banner-3"
+    ],
+    "title": "Right Category Banners"
+  },
+  "flex-layout.row#department-1-banner-1": {
+    "children":["image#department-1-banner-1"],
+    "props": {
+      }
+  },
+  "image#department-1-banner-1":{
+    "props":{
+      "src": "/arquivos/Banners-carxofes-275x102.jpg?v=636947125942070000",
+      "maxHeight": 200
+    },
+    "title": "Top Banner"
+  },
+  "flex-layout.row#department-1-banner-2": {
+    "children":["image#department-1-banner-2"],
+    "props": {
+      }
+  },
+  "image#department-1-banner-2":{
+    "props":{
+      "src": "/arquivos/Banners-ceba-dol%C3%A7a-275X102.jpg?v=636947125962500000",
+      "maxHeight": 200
+    },
+    "title": "Bottom Banner"
+  },
+  "flex-layout.row#department-1-banner-3": {
+    "children":["image#department-1-banner-3"],
+    "props": {
+      }
+  },
+  "image#department-1-banner-3":{
+    "props":{
+      "src": "/arquivos/Banners-faves-275X102.jpg?v=636947126882600000",
+      "maxHeight": 200
+    },
+    "title": "Top Banner"
+  },
+  "menu-item#department-2": {
+    "props": {
+      "id": "menu-item-department-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/fruita",
+        "noFollow": true,
+        "tagTitle": "FRUITA",
+        "text": "FRUITA"
+      },
+      "blockClass":"header-department-title"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#department-2"
+    ]
+  },
+  "vtex.menu@2.x:submenu#department-2": {
+    "props": {
+      "width": "100%"
+      
+    },
+    "children": [
+      "flex-layout.row#department-2-submenu"
+    ]
+  },
+  "flex-layout.row#department-2-submenu": {
+    "children": [
+      "flex-layout.col#department-2-submenu-col-1",
+      "flex-layout.col#department-2-submenu-col-2"
+    ]
+  },
+  "flex-layout.col#department-2-submenu-col-1": {
+    "children": [
+      "vtex.menu@2.x:menu#department-2-submenu"
+    ],
+    "title": "Left Category Links"
+  },
+  "vtex.menu@2.x:menu#department-2-submenu": {
+    "props": {
+      "orientation": "vertical",
+      "tagTitle": "Submenu"
+    },
+    "children": [
+      "menu-item#department-2-category-1",
+      "menu-item#department-2-category-2",
+      "menu-item#department-2-category-3",
+      "menu-item#department-2-category-4",
+      "menu-item#department-2-category-5",
+      "menu-item#department-2-category-6",
+      "menu-item#department-2-category-7",
+      "menu-item#department-2-category-8",
+      "menu-item#department-2-category-9",
+      "menu-item#department-2-category-10",
+      "menu-item#department-2-category-11",
+      "menu-item#department-2-category-12",
+      "menu-item#department-2-category-13",
+      "menu-item#department-2-category-14",
+      "menu-item#department-2-category-15"
+    ]
+  },
+  "menu-item#department-2-category-1": {
+    "props": {
+      "id": "menu-item-department-2-category-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/fruita",
+        "noFollow": true,
+        "tagTitle": "VEURE TOTS",
+        "text": "VEURE TOTS"
+      }
+    }
+  },
+  "menu-item#department-2-category-2": {
+    "props": {
+      "id": "menu-item-department-2-category-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/verdura-i-hortalissa/alvocat",
+        "noFollow": true,
+        "tagTitle": "ALVOCAT",
+        "text": "ALVOCAT"
+      }
+    }
+  },
+  "menu-item#department-2-category-3": {
+    "props": {
+      "id": "menu-item-department-2-category-3",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/fruita/cireres-i-prunes",
+        "noFollow": true,
+        "tagTitle": "CIRERES I PRUNES",
+        "text": "CIRERES I PRUNES"
+      }
+    }
+  },
+  "menu-item#department-2-category-4": {
+    "props": {
+      "id": "menu-item-department-2-category-4",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/fruita/cistelles-de-fruita",
+        "noFollow": true,
+        "tagTitle": "CISTELLES DE FRUITA",
+        "text": "CISTELLES DE FRUITA"
+      }
+    }
+  },
+  "menu-item#department-2-category-5": {
+    "props": {
+      "id": "menu-item-department-2-category-5",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/fruita/fruita-dolca",
+        "noFollow": true,
+        "tagTitle": "FRUITA DOLÇA",
+        "text": "FRUITA DOLÇA"
+      }
+    }
+  },
+  "menu-item#department-2-category-6": {
+    "props": {
+      "id": "menu-item-department-2-category-6",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/fruita/fruita-seca-i-llavors",
+        "noFollow": true,
+        "tagTitle": "FRUITA SECA I LLAVORS",
+        "text": "FRUITA SECA I LLAVORS"
+      }
+    }
+  },
+  "menu-item#department-2-category-7": {
+    "props": {
+      "id": "menu-item-department-2-category-7",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/fruita/fruita-tropical-i-exotica",
+        "noFollow": true,
+        "tagTitle": "FRUITA TROPICAL I EXÒTICA",
+        "text": "FRUITA TROPICAL I EXÒTICA"
+      }
+    }
+  },
+  "menu-item#department-2-category-8": {
+    "props": {
+      "id": "menu-item-department-2-category-8",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/fruita/melons-i-sindries",
+        "noFollow": true,
+        "tagTitle": "MELONS I SÍNDRIES",
+        "text": "MELONS I SÍNDRIES"
+      }
+    }
+  },
+  "menu-item#department-2-category-9": {
+    "props": {
+      "id": "menu-item-department-2-category-9",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/fruita/pinya-i-mango",
+        "noFollow": true,
+        "tagTitle": "PINYA I MANGO",
+        "text": "PINYA I MANGO"
+      }
+    }
+  },
+  "menu-item#department-2-category-10": {
+    "props": {
+      "id": "menu-item-department-2-category-10",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/fruita/platans-i-kiwis",
+        "noFollow": true,
+        "tagTitle": "PLÀTANS I KIWIS",
+        "text": "PLÀTANS I KIWIS"
+      }
+    }
+  },
+  "menu-item#department-2-category-11": {
+    "props": {
+      "id": "menu-item-deparment-2-category-11",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/fruita/pomes-i-peres",
+        "noFollow": true,
+        "tagTitle": "POMES I PERES",
+        "text": "POMES I PERES"
+      }
+    }
+  },
+  "menu-item#department-2-category-12": {
+    "props": {
+      "id": "menu-item-deparment-2-category-12",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/fruita/pressecs-i-albercocs",
+        "noFollow": true,
+        "tagTitle": "PRÉSSECS I ALBERCOCS",
+        "text": "PRÉSSECS I ALBERCOCS"
+      }
+    }
+  },
+  "menu-item#department-2-category-13": {
+    "props": {
+      "id": "menu-item-deparment-2-category-13",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/fruita/raims-i-fruits-vermells",
+        "noFollow": true,
+        "tagTitle": "RAÏMS I FRUITS VERMELLS",
+        "text": "RAÏMS I FRUITS VERMELLS"
+      }
+    }
+  },
+  "menu-item#department-2-category-14": {
+    "props": {
+      "id": "menu-item-deparment-2-category-14",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/fruita/taronges-i-citrics",
+        "noFollow": true,
+        "tagTitle": "TARONGES I CÍTRICS",
+        "text": "TARONGES I CÍTRICS"
+      }
+    }
+  },
+  "menu-item#department-2-category-15": {
+    "props": {
+      "id": "menu-item-deparment-2-category-15",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/fruita/tomaquets",
+        "noFollow": true,
+        "tagTitle": "TOMÀQUETS",
+        "text": "TOMÀQUETS"
+      }
+    }
+  },
+  "flex-layout.col#department-2-submenu-col-2": {
+    "children": [
+      "flex-layout.row#department-2-banner-1",
+      "flex-layout.row#department-2-banner-2",
+      "flex-layout.row#department-2-banner-3"
+    ],
+    "title": "Right Category Banners"
+  },
+  "flex-layout.row#department-2-banner-1": {
+    "children":["image#department-2-banner-1"],
+    "props": {
+      }
+  },
+  "image#department-2-banner-1":{
+    "props":{
+      "src": "/arquivos/Banners-albercocs-275X102.jpg?v=636947125906130000",
+      "maxHeight": 200
+    },
+    "title": "Top Banner"
+  },
+  "flex-layout.row#department-2-banner-2": {
+    "children":["image#department-2-banner-2"],
+    "props": {
+      }
+  },
+  "image#department-2-banner-2":{
+    "props":{
+      "src": "/arquivos/Banners-cistelles-fruita-275x102.jpg?v=636947126785600000",
+      "maxHeight": 200
+    },
+    "title": "Bottom Banner"
+  },
+  "flex-layout.row#department-2-banner-3": {
+    "children":["image#department-2-banner-3"],
+    "props": {
+      }
+  },
+  "image#department-2-banner-3":{
+    "props":{
+      "src": "/arquivos/Banners-cistelles-fruita-275x102.jpg?v=636947126785600000",
+      "maxHeight": 200
+    },
+    "title": "Bottom Banner"
+  },
+  "menu-item#department-3": {
+    "props": {
+      "id": "menu-item-department-3",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/plats-cuinats",
+        "noFollow": true,
+        "tagTitle": "PLATS CUINATS",
+        "text": "PLATS CUINATS"
+      },
+      "blockClass":"header-department-title"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#department-3"
+    ]
+  },
+  "vtex.menu@2.x:submenu#department-3": {
+    "props": {
+      "width": "100%"
+      
+    },
+    "children": [
+      "flex-layout.row#department-3-submenu"
+    ]
+  },
+  "flex-layout.row#department-3-submenu": {
+    "children": [
+      "flex-layout.col#department-3-submenu-col-1",
+      "flex-layout.col#department-3-submenu-col-2"
+    ]
+  },
+  "flex-layout.col#department-3-submenu-col-1": {
+    "children": [
+      "vtex.menu@2.x:menu#department-3-submenu"
+    ],
+    "title": "Left Category Links"
+  },
+  "vtex.menu@2.x:menu#department-3-submenu": {
+    "props": {
+      "orientation": "vertical",
+      "tagTitle": "Submenu"
+    },
+    "children": [
+      "menu-item#department-3-category-1",
+      "menu-item#department-3-category-2",
+      "menu-item#department-3-category-3",
+      "menu-item#department-3-category-4",
+      "menu-item#department-3-category-5",
+      "menu-item#department-3-category-6",
+      "menu-item#department-3-category-7",
+      "menu-item#department-3-category-8",
+      "menu-item#department-3-category-9",
+      "menu-item#department-3-category-10"
+    ]
+  },
+  "menu-item#department-3-category-1": {
+    "props": {
+      "id": "menu-item-department-3-category-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/plats-cuinats",
+        "noFollow": true,
+        "tagTitle": "VEURE TOTS",
+        "text": "VEURE TOTS"
+      }
+    }
+  },
+  "menu-item#department-3-category-2": {
+    "props": {
+      "id": "menu-item-department-3-category-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/plats-cuinats/canelons-i-lasanya",
+        "noFollow": true,
+        "tagTitle": "CANELONS I LASANYA",
+        "text": "CANELONS I LASANYA"
+      }
+    }
+  },
+  "menu-item#department-3-category-3": {
+    "props": {
+      "id": "menu-item-department-3-category-3",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/plats-cuinats/cremes-i-sopes",
+        "noFollow": true,
+        "tagTitle": "CREMES I SOPES",
+        "text": "CREMES I SOPES"
+      }
+    }
+  },
+  "menu-item#department-3-category-4": {
+    "props": {
+      "id": "menu-item-department-3-category-4",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/plats-cuinats/pizza",
+        "noFollow": true,
+        "tagTitle": "PIZZA",
+        "text": "PIZZA"
+      }
+    }
+  },
+  "menu-item#department-3-category-5": {
+    "props": {
+      "id": "menu-item-department-3-category-5",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/plats-cuinats/plats-a-escalfar",
+        "noFollow": true,
+        "tagTitle": "PLATS A ESCALFAR",
+        "text": "PLATS A ESCALFAR"
+      }
+    }
+  },
+  "menu-item#department-3-category-6": {
+    "props": {
+      "id": "menu-item-department-3-category-6",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/plats-cuinats/plats-unics",
+        "noFollow": true,
+        "tagTitle": "PLATS ÚNICS",
+        "text": "PLATS ÚNICS"
+      }
+    }
+  },
+  "menu-item#department-3-category-7": {
+    "props": {
+      "id": "menu-item-department-3-category-7",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/plats-cuinats/salses-i-pasta-fresca",
+        "noFollow": true,
+        "tagTitle": "SALSES I PASTA FRESCA",
+        "text": "SALSES I PASTA FRESCA"
+      }
+    }
+  },
+  "menu-item#department-3-category-8": {
+    "props": {
+      "id": "menu-item-department-3-category-8",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/plats-cuinats/truites",
+        "noFollow": true,
+        "tagTitle": "TRUITES",
+        "text": "TRUITES"
+      }
+    }
+  },
+  "menu-item#department-3-category-9": {
+    "props": {
+      "id": "menu-item-department-3-category-9",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/plats-cuinats/verdura-i-amanides",
+        "noFollow": true,
+        "tagTitle": "VERDURA I AMANIDES",
+        "text": "VERDURA I AMANIDES"
+      }
+    }
+  },
+  "menu-item#department-3-category-10": {
+    "props": {
+      "id": "menu-item-department-3-category-10",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Department 3 Category 10",
+        "text": ""
+      }
+    }
+  },
+  "flex-layout.col#department-3-submenu-col-2": {
+    "children": [
+      "flex-layout.row#department-3-banner-1",
+      "flex-layout.row#department-3-banner-2"
+    ],
+    "title": "Right Category Banners"
+  },
+  "flex-layout.row#department-3-banner-1": {
+    "children":["image#department-3-banner-1"],
+    "props": {
+      }
+  },
+  "image#department-3-banner-1":{
+    "props":{
+      "src": "/arquivos/Banners-cremes-fredes-275X102.jpg?v=636947126842870000",
+      "maxHeight": 200
+    },
+    "title": "Top Banner"
+  },
+  "flex-layout.row#department-3-banner-2": {
+    "children":["image#department-3-banner-2"],
+    "props": {
+      }
+  },
+  "image#department-3-banner-2":{
+    "props":{
+      "src": "/arquivos/Banners-plats-unics-275X102.jpg?v=636947130241970000",
+      "maxHeight": 200
+    },
+    "title": "Bottom Banner"
+  },
+  "menu-item#department-4": {
+    "props": {
+      "id": "menu-item-department-4",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/lactics-i-ous",
+        "noFollow": true,
+        "tagTitle": "LÀCTICS I OUS",
+        "text": "LÀCTICS I OUS"
+      },
+      "blockClass":"header-department-title"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#department-4"
+    ]
+  },
+  "vtex.menu@2.x:submenu#department-4": {
+    "props": {
+      "width": "100%"
+      
+    },
+    "children": [
+      "flex-layout.row#department-4-submenu"
+    ]
+  },
+  "flex-layout.row#department-4-submenu": {
+    "children": [
+      "flex-layout.col#department-4-submenu-col-1",
+      "flex-layout.col#department-4-submenu-col-2"
+    ]
+  },
+  "flex-layout.col#department-4-submenu-col-1": {
+    "children": [
+      "vtex.menu@2.x:menu#department-4-submenu"
+    ],
+    "title": "Left Category Links"
+  },
+  "vtex.menu@2.x:menu#department-4-submenu": {
+    "props": {
+      "orientation": "vertical",
+      "tagTitle": "Submenu"
+    },
+    "children": [
+      "menu-item#department-4-category-1",
+      "menu-item#department-4-category-2",
+      "menu-item#department-4-category-3",
+      "menu-item#department-4-category-4",
+      "menu-item#department-4-category-5",
+      "menu-item#department-4-category-6",
+      "menu-item#department-4-category-7",
+      "menu-item#department-4-category-8",
+      "menu-item#department-4-category-9",
+      "menu-item#department-4-category-10"
+    ]
+  },
+  "menu-item#department-4-category-1": {
+    "props": {
+      "id": "menu-item-department-4-category-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/lactics-i-ous",
+        "noFollow": true,
+        "tagTitle": "VEURE TOTS",
+        "text": "VEURE TOTS"
+      }
+    }
+  },
+  "menu-item#department-4-category-2": {
+    "props": {
+      "id": "menu-item-department-4-category-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/lactics-i-ous/begudes-vegetals",
+        "noFollow": true,
+        "tagTitle": "BEGUDES VEGETALS",
+        "text": "BEGUDES VEGETALS"
+      }
+    }
+  },
+  "menu-item#department-4-category-3": {
+    "props": {
+      "id": "menu-item-department-4-category-3",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/lactics-i-ous/formatges",
+        "noFollow": true,
+        "tagTitle": "FORMATGES",
+        "text": "FORMATGES"
+      }
+    }
+  },
+  "menu-item#department-4-category-4": {
+    "props": {
+      "id": "menu-item-department-4-category-4",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/lactics-i-ous/iogurts",
+        "noFollow": true,
+        "tagTitle": "IOGURTS",
+        "text": "IOGURTS"
+      }
+    }
+  },
+  "menu-item#department-4-category-5": {
+    "props": {
+      "id": "menu-item-department-4-category-5",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/lactics-i-ous/llet",
+        "noFollow": true,
+        "tagTitle": "LLET",
+        "text": "LLET"
+      }
+    }
+  },
+  "menu-item#department-4-category-6": {
+    "props": {
+      "id": "menu-item-department-4-category-6",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/lactics-i-ous/nata-i-mantega",
+        "noFollow": true,
+        "tagTitle": "NATA I MANTEGA",
+        "text": "NATA I MANTEGA"
+      }
+    }
+  },
+  "menu-item#department-4-category-7": {
+    "props": {
+      "id": "menu-item-department-4-category-7",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/lactics-i-ous/ous-frescos",
+        "noFollow": true,
+        "tagTitle": "OUS FRESCOS",
+        "text": "OUS FRESCOS"
+      }
+    }
+  },
+  "menu-item#department-4-category-8": {
+    "props": {
+      "id": "menu-item-department-4-category-8",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/lactics-i-ous/postres-i-flam",
+        "noFollow": true,
+        "tagTitle": "POSTRES I FLAM",
+        "text": "POSTRES I FLAM"
+      }
+    }
+  },
+  "menu-item#department-4-category-9": {
+    "props": {
+      "id": "menu-item-department-4-category-9",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Department 4 Category 9",
+        "text": ""
+      }
+    }
+  },
+  "menu-item#department-4-category-10": {
+    "props": {
+      "id": "menu-item-department-4-category-10",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Department 4 Category 10",
+        "text": ""
+      }
+    }
+  },
+  "flex-layout.col#department-4-submenu-col-2": {
+    "children": [
+      "flex-layout.row#department-4-banner-1",
+      "flex-layout.row#department-4-banner-2"
+    ],
+    "title": "Right Category Banners"
+  },
+  "flex-layout.row#department-4-banner-1": {
+    "children":["image#department-4-banner-1"],
+    "props": {
+      }
+  },
+  "image#department-4-banner-1":{
+    "props":{
+      "src": "/arquivos/Banners-llet-ecologica-275X102.jpg?v=636947128036700000",
+      "maxHeight": 200
+    },
+    "title": "Top Banner"
+  },
+  "flex-layout.row#department-4-banner-2": {
+    "children":["image#department-4-banner-2"],
+    "props": {
+      }
+  },
+  "image#department-4-banner-2":{
+    "props":{
+      "src": "/arquivos/Banners-ous-ecos-275x102.jpg?v=636947130227630000",
+      "maxHeight": 200
+    },
+    "title": "Bottom Banner"
+  },
+  "menu-item#department-5": {
+    "props": {
+      "id": "menu-item-department-5",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/carn-i-xarcuteria",
+        "noFollow": true,
+        "tagTitle": "CARN",
+        "text": "CARN"
+      },
+      "blockClass":"header-department-title"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#department-5"
+    ]
+  },
+  "vtex.menu@2.x:submenu#department-5": {
+    "props": {
+      "width": "100%"
+      
+    },
+    "children": [
+      "flex-layout.row#department-5-submenu"
+    ]
+  },
+  "flex-layout.row#department-5-submenu": {
+    "children": [
+      "flex-layout.col#department-5-submenu-col-1",
+      "flex-layout.col#department-5-submenu-col-2"
+    ]
+  },
+  "flex-layout.col#department-5-submenu-col-1": {
+    "children": [
+      "vtex.menu@2.x:menu#department-5-submenu"
+    ],
+    "title": "Left Category Links"
+  },
+  "vtex.menu@2.x:menu#department-5-submenu": {
+    "props": {
+      "orientation": "vertical",
+      "tagTitle": "Submenu"
+    },
+    "children": [
+      "menu-item#department-5-category-1",
+      "menu-item#department-5-category-2",
+      "menu-item#department-5-category-3",
+      "menu-item#department-5-category-4",
+      "menu-item#department-5-category-5",
+      "menu-item#department-5-category-6",
+      "menu-item#department-5-category-7",
+      "menu-item#department-5-category-8",
+      "menu-item#department-5-category-9",
+      "menu-item#department-5-category-10"
+    ]
+  },
+  "menu-item#department-5-category-1": {
+    "props": {
+      "id": "menu-item-department-5-category-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/carn-i-xarcuteria",
+        "noFollow": true,
+        "tagTitle": "VEURE TOTS",
+        "text": "VEURE TOTS"
+      }
+    }
+  },
+  "menu-item#department-5-category-2": {
+    "props": {
+      "id": "menu-item-department-5-category-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/carn-i-xarcuteria/botifarres-hamburgueses-i-elaborats",
+        "noFollow": true,
+        "tagTitle": "BOTIFARRES, HAMBURGUESES I ELABORATS",
+        "text": "BOTIFARRES, HAMBURGUESES I ELABORATS"
+      }
+    }
+  },
+  "menu-item#department-5-category-3": {
+    "props": {
+      "id": "menu-item-department-5-category-3",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/carn-i-xarcuteria/cabrit-i-xai",
+        "noFollow": true,
+        "tagTitle": "CABRIT I XAI",
+        "text": "CABRIT I XAI"
+      }
+    }
+  },
+  "menu-item#department-5-category-4": {
+    "props": {
+      "id": "menu-item-department-5-category-4",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/carn-i-xarcuteria/conill",
+        "noFollow": true,
+        "tagTitle": "CONILL",
+        "text": "CONILL"
+      }
+    }
+  },
+  "menu-item#department-5-category-5": {
+    "props": {
+      "id": "menu-item-department-5-category-5",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/carn-i-xarcuteria/pernil-embotits-i-pates",
+        "noFollow": true,
+        "tagTitle": "PERNIL, EMBOTITS I PATÉS",
+        "text": "PERNIL, EMBOTITS I PATÉS"
+      }
+    }
+  },
+  "menu-item#department-5-category-6": {
+    "props": {
+      "id": "menu-item-department-5-category-6",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/carn-i-xarcuteria/pollastre-gall-dindi-anec",
+        "noFollow": true,
+        "tagTitle": "POLLASTRE, GALL DINDI, ÀNEC",
+        "text": "POLLASTRE, GALL DINDI, ÀNEC"
+      }
+    }
+  },
+  "menu-item#department-5-category-7": {
+    "props": {
+      "id": "menu-item-department-5-category-7",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/carn-i-xarcuteria/porc",
+        "noFollow": true,
+        "tagTitle": "PORC",
+        "text": "PORC"
+      }
+    }
+  },
+  "menu-item#department-5-category-8": {
+    "props": {
+      "id": "menu-item-department-5-category-8",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/carn-i-xarcuteria/proteina-vegetal",
+        "noFollow": true,
+        "tagTitle": "PROTEÏNA VEGETAL",
+        "text": "PROTEÏNA VEGETAL"
+      }
+    }
+  },
+  "menu-item#department-5-category-9": {
+    "props": {
+      "id": "menu-item-department-5-category-9",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/carn-i-xarcuteria/vedella-i-vaca",
+        "noFollow": true,
+        "tagTitle": "VEDELLA I VACA",
+        "text": "VEDELLA I VACA"
+      }
+    }
+  },
+  "menu-item#department-5-category-10": {
+    "props": {
+      "id": "menu-item-department-5-category-10",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Department 5 Category 10",
+        "text": ""
+      }
+    }
+  },
+  "flex-layout.col#department-5-submenu-col-2": {
+    "children": [
+      "flex-layout.row#department-5-banner-1",
+      "flex-layout.row#department-5-banner-2"
+    ],
+    "title": "Right Category Banners"
+  },
+  "flex-layout.row#department-5-banner-1": {
+    "children":["image#department-5-banner-1"],
+    "props": {
+      }
+  },
+  "image#department-5-banner-1":{
+    "props":{
+      "src": "arquivos/Banners-embotits-275X102.jpg?v=636947126862570000",
+      "maxHeight": 200
+    },
+    "title": "Top Banner"
+  },
+  "flex-layout.row#department-5-banner-2": {
+    "children":["image#department-5-banner-2"],
+    "props": {
+      }
+  },
+  "image#department-5-banner-2":{
+    "props":{
+      "src": "/arquivos/Banners-hamburgueses-275X102.jpg?v=636947127994030000",
+      "maxHeight": 200
+    },
+    "title": "Bottom Banner"
+  },
+  "menu-item#department-6": {
+    "props": {
+      "id": "menu-item-department-6",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/peix",
+        "noFollow": true,
+        "tagTitle": "PEIX",
+        "text": "PEIX"
+      },
+      "blockClass":"header-department-title"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#department-6"
+    ]
+  },
+  "vtex.menu@2.x:submenu#department-6": {
+    "props": {
+      "width": "100%"
+      
+    },
+    "children": [
+      "flex-layout.row#department-6-submenu"
+    ]
+  },
+  "flex-layout.row#department-6-submenu": {
+    "children": [
+      "flex-layout.col#department-6-submenu-col-1",
+      "flex-layout.col#department-6-submenu-col-2"
+    ]
+  },
+  "flex-layout.col#department-6-submenu-col-1": {
+    "children": [
+      "vtex.menu@2.x:menu#department-6-submenu"
+    ],
+    "title": "Left Category Links"
+  },
+  "vtex.menu@2.x:menu#department-6-submenu": {
+    "props": {
+      "orientation": "vertical",
+      "tagTitle": "Submenu"
+    },
+    "children": [
+      "menu-item#department-6-category-1",
+      "menu-item#department-6-category-2",
+      "menu-item#department-6-category-3",
+      "menu-item#department-6-category-4",
+      "menu-item#department-6-category-5",
+      "menu-item#department-6-category-6",
+      "menu-item#department-6-category-7",
+      "menu-item#department-6-category-8",
+      "menu-item#department-6-category-9",
+      "menu-item#department-6-category-10"
+    ]
+  },
+  "menu-item#department-6-category-1": {
+    "props": {
+      "id": "menu-item-department-6-category-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/peix",
+        "noFollow": true,
+        "tagTitle": "VEURE TOTS",
+        "text": "VEURE TOTS"
+      }
+    }
+  },
+  "menu-item#department-6-category-2": {
+    "props": {
+      "id": "menu-item-department-6-category-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/peix/marisc-i-crustacis",
+        "noFollow": true,
+        "tagTitle": "MARISC I CRUSTACIS",
+        "text": "MARISC I CRUSTACIS"
+      }
+    }
+  },
+  "menu-item#department-6-category-3": {
+    "props": {
+      "id": "menu-item-department-6-category-3",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/peix/peixateria",
+        "noFollow": true,
+        "tagTitle": "PEIXATERIA",
+        "text": "PEIXATERIA"
+      }
+    }
+  },
+  "menu-item#department-6-category-4": {
+    "props": {
+      "id": "menu-item-department-6-category-4",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/peix/salmo-i-peix-fumat",
+        "noFollow": true,
+        "tagTitle": "SALMÓ I PEIX FUMAT",
+        "text": "SALMÓ I PEIX FUMAT"
+      }
+    }
+  },
+  "menu-item#department-6-category-5": {
+    "props": {
+      "id": "menu-item-department-6-category-5",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/peix/sipia-calamar-i-pop",
+        "noFollow": true,
+        "tagTitle": "SÍPIA, CALAMAR I POP",
+        "text": "SÍPIA, CALAMAR I POP"
+      }
+    }
+  },
+  "menu-item#department-6-category-6": {
+    "props": {
+      "id": "menu-item-department-6-category-6",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Department 6 Category 6",
+        "text": ""
+      }
+    }
+  },
+  "menu-item#department-6-category-7": {
+    "props": {
+      "id": "menu-item-department-6-category-7",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Department 6 Category 7",
+        "text": ""
+      }
+    }
+  },
+  "menu-item#department-6-category-8": {
+    "props": {
+      "id": "menu-item-department-6-category-8",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Department 6 Category 8",
+        "text": ""
+      }
+    }
+  },
+  "menu-item#department-6-category-9": {
+    "props": {
+      "id": "menu-item-department-6-category-9",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Department 6 Category 9",
+        "text": ""
+      }
+    }
+  },
+  "menu-item#department-6-category-10": {
+    "props": {
+      "id": "menu-item-department-6-category-10",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Department 6 Category 10",
+        "text": ""
+      }
+    }
+  },
+  "flex-layout.col#department-6-submenu-col-2": {
+    "children": [
+      "flex-layout.row#department-6-banner-1",
+      "flex-layout.row#department-6-banner-2"
+    ],
+    "title": "Right Category Banners"
+  },
+  "flex-layout.row#department-6-banner-1": {
+    "children":["image#department-6-banner-1"],
+    "props": {
+      }
+  },
+  "image#department-6-banner-1":{
+    "props":{
+      "src": "/arquivos/Banners-embotits-275X102.jpg?v=636947126862570000",
+      "maxHeight": 200
+    },
+    "title": "Top Banner"
+  },
+  "flex-layout.row#department-6-banner-2": {
+    "children":["image#department-6-banner-2"],
+    "props": {
+      }
+  },
+  "image#department-6-banner-2":{
+    "props":{
+      "src": "",
+      "maxHeight": 200
+    },
+    "title": "Bottom Banner"
+  },
+  "menu-item#department-7": {
+    "props": {
+      "id": "menu-item-department-7",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/rebost",
+        "noFollow": true,
+        "tagTitle": "REBOST",
+        "text": "REBOST"
+      },
+      "blockClass":"header-department-title"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#department-7"
+    ]
+  },
+  "vtex.menu@2.x:submenu#department-7": {
+    "props": {
+      "width": "100%"
+      
+    },
+    "children": [
+      "flex-layout.row#department-7-submenu"
+    ]
+  },
+  "flex-layout.row#department-7-submenu": {
+    "children": [
+      "flex-layout.col#department-7-submenu-col-1",
+      "flex-layout.col#department-7-submenu-col-2"
+    ]
+  },
+  "flex-layout.col#department-7-submenu-col-1": {
+    "children": [
+      "vtex.menu@2.x:menu#department-7-submenu"
+    ],
+    "title": "Left Category Links"
+  },
+  "vtex.menu@2.x:menu#department-7-submenu": {
+    "props": {
+      "orientation": "vertical",
+      "tagTitle": "Submenu"
+    },
+    "children": [
+      "menu-item#department-7-category-1",
+      "menu-item#department-7-category-2",
+      "menu-item#department-7-category-3",
+      "menu-item#department-7-category-4",
+      "menu-item#department-7-category-5",
+      "menu-item#department-7-category-6",
+      "menu-item#department-7-category-7",
+      "menu-item#department-7-category-8",
+      "menu-item#department-7-category-9",
+      "menu-item#department-7-category-10",
+      "menu-item#department-7-category-11",
+      "menu-item#department-7-category-12",
+      "menu-item#department-7-category-13",
+      "menu-item#department-7-category-14",
+      "menu-item#department-7-category-15",
+      "menu-item#department-7-category-16"
+    ]
+  },
+  "menu-item#department-7-category-1": {
+    "props": {
+      "id": "menu-item-department-7-category-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/rebost",
+        "noFollow": true,
+        "tagTitle": "VEURE TOTS",
+        "text": "VEURE TOTS"
+      }
+    }
+  },
+  "menu-item#department-7-category-2": {
+    "props": {
+      "id": "menu-item-department-7-category-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/rebost/alimentacio-oriental",
+        "noFollow": true,
+        "tagTitle": "ALIMENTACIÓ ORIENTAL",
+        "text": "ALIMENTACIÓ ORIENTAL"
+      }
+    }
+  },
+  "menu-item#department-7-category-3": {
+    "props": {
+      "id": "menu-item-department-7-category-3",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/rebost/arrossos",
+        "noFollow": true,
+        "tagTitle": "ARROSSOS",
+        "text": "ARROSSOS"
+      }
+    }
+  },
+  "menu-item#department-7-category-4": {
+    "props": {
+      "id": "menu-item-department-7-category-4",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/rebost/cereals-esmorzar",
+        "noFollow": true,
+        "tagTitle": "CEREALS ESMORZAR",
+        "text": "CEREALS ESMORZAR"
+      }
+    }
+  },
+  "menu-item#department-7-category-5": {
+    "props": {
+      "id": "menu-item-department-7-category-5",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/rebost/conserves-de-peix-i-marisc",
+        "noFollow": true,
+        "tagTitle": "CONSERVES DE PEIX I MARISC",
+        "text": "CONSERVES DE PEIX I MARISC"
+      }
+    }
+  },
+  "menu-item#department-7-category-6": {
+    "props": {
+      "id": "menu-item-department-7-category-6",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/rebost/conserves-vegetals",
+        "noFollow": true,
+        "tagTitle": "CONSERVES VEGETALS",
+        "text": "CONSERVES VEGETALS"
+      }
+    }
+  },
+  "menu-item#department-7-category-7": {
+    "props": {
+      "id": "menu-item-department-7-category-7",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/rebost/dolcos-i-xocolates",
+        "noFollow": true,
+        "tagTitle": "DOLÇOS I XOCOLATES",
+        "text": "DOLÇOS I XOCOLATES"
+      }
+    }
+  },
+  "menu-item#department-7-category-8": {
+    "props": {
+      "id": "menu-item-department-7-category-8",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/rebost/sal-especies-i-condiments",
+        "noFollow": true,
+        "tagTitle": "ESPÈCIES I CONDIMENTS",
+        "text": "ESPÈCIES I CONDIMENTS"
+      }
+    }
+  },
+  "menu-item#department-7-category-9": {
+    "props": {
+      "id": "menu-item-department-7-category-9",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/rebost/farines-i-pa-ratllat",
+        "noFollow": true,
+        "tagTitle": "FARINES I PA RATLLAT",
+        "text": "FARINES I PA RATLLAT"
+      }
+    }
+  },
+  "menu-item#department-7-category-10": {
+    "props": {
+      "id": "menu-item-department-7-category-10",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/rebost/fruita-seca-i-llavors",
+        "noFollow": true,
+        "tagTitle": "FRUITA SECA I LLAVORS",
+        "text": "FRUITA SECA I LLAVORS"
+      }
+    }
+  },
+  "menu-item#department-7-category-11": {
+    "props": {
+      "id": "menu-item-department-7-category-11",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/rebost/llegums-i-cereals-en-gra",
+        "noFollow": true,
+        "tagTitle": "LLEGUMS I CEREALS EN GRA",
+        "text": "LLEGUMS I CEREALS EN GRA"
+      }
+    }
+  },
+  "menu-item#department-7-category-12": {
+    "props": {
+      "id": "menu-item-department-7-category-12",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/rebost/mel-melmelades-i-confitures",
+        "noFollow": true,
+        "tagTitle": "MEL, MELMELADES I CONFITURES",
+        "text": "MEL, MELMELADES I CONFITURES"
+      }
+    }
+  },
+  "menu-item#department-7-category-13": {
+    "props": {
+      "id": "menu-item-department-7-category-13",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/rebost/oli-i-vinagre",
+        "noFollow": true,
+        "tagTitle": "OLI I VINAGRE",
+        "text": "OLI I VINAGRE"
+      }
+    }
+  },
+  "menu-item#department-7-category-14": {
+    "props": {
+      "id": "menu-item-department-7-category-14",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/rebost/olives-i-snacks",
+        "noFollow": true,
+        "tagTitle": "OLIVES I SNACKS",
+        "text": "OLIVES I SNACKS"
+      }
+    }
+  },
+  "menu-item#department-7-category-15": {
+    "props": {
+      "id": "menu-item-department-7-category-15",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/rebost/pasta",
+        "noFollow": true,
+        "tagTitle": "PASTA",
+        "text": "PASTA"
+      }
+    }
+  },
+  "menu-item#department-7-category-16": {
+    "props": {
+      "id": "menu-item-department-7-category-16",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/rebost/potets-i-plats-infantils",
+        "noFollow": true,
+        "tagTitle": "POTETS I PLATS INFANTILS",
+        "text": "POTETS I PLATS INFANTILS"
+      }
+    }
+  },
+  "flex-layout.col#department-7-submenu-col-2": {
+    "children": [
+      "flex-layout.row#department-7-banner-1",
+      "flex-layout.row#department-7-banner-2",
+      "flex-layout.row#department-7-banner-3"
+    ],
+    "title": "Right Category Banners"
+  },
+  "flex-layout.row#department-7-banner-1": {
+    "children":["image#department-7-banner-1"],
+    "props": {
+      }
+  },
+  "image#department-7-banner-1":{
+    "props":{
+      "src": "/arquivos/Banners-cereals-275X102.jpg?v=636947125982470000",
+      "maxHeight": 200
+    },
+    "title": "Top Banner"
+  },
+  "flex-layout.row#department-7-banner-2": {
+    "children":["image#department-7-banner-2"],
+    "props": {
+      }
+  },
+  "image#department-7-banner-2":{
+    "props":{
+      "src": "/arquivos/Banners-melmelades-275X102.jpg?v=636947128076700000",
+      "maxHeight": 200
+    },
+    "title": "Bottom Banner"
+  },
+  "flex-layout.row#department-7-banner-3": {
+    "children":["image#department-7-banner-3"],
+    "props": {
+      }
+  },
+  "image#department-7-banner-3":{
+    "props":{
+      "src": "/arquivos/Banners-olis-vinagres-275X102.jpg?v=636947128096700000",
+      "maxHeight": 200
+    },
+    "title": "Bottom Banner"
+  },
+  "menu-item#department-8": {
+    "props": {
+      "id": "menu-item-department-8",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/forn-de-pa",
+        "noFollow": true,
+        "tagTitle": "GALETES I PA",
+        "text": "GALETES I PA"
+      },
+      "blockClass":"header-department-title"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#department-8"
+    ]
+  },
+  "vtex.menu@2.x:submenu#department-8": {
+    "props": {
+      "width": "100%"
+      
+    },
+    "children": [
+      "flex-layout.row#department-8-submenu"
+    ]
+  },
+  "flex-layout.row#department-8-submenu": {
+    "children": [
+      "flex-layout.col#department-8-submenu-col-1",
+      "flex-layout.col#department-8-submenu-col-2"
+    ]
+  },
+  "flex-layout.col#department-8-submenu-col-1": {
+    "children": [
+      "vtex.menu@2.x:menu#department-8-submenu"
+    ],
+    "title": "Left Category Links"
+  },
+  "vtex.menu@2.x:menu#department-8-submenu": {
+    "props": {
+      "orientation": "vertical",
+      "tagTitle": "Submenu"
+    },
+    "children": [
+      "menu-item#department-8-category-1",
+      "menu-item#department-8-category-2",
+      "menu-item#department-8-category-3",
+      "menu-item#department-8-category-4",
+      "menu-item#department-8-category-5",
+      "menu-item#department-8-category-6",
+      "menu-item#department-8-category-7",
+      "menu-item#department-8-category-8",
+      "menu-item#department-8-category-9",
+      "menu-item#department-8-category-10"
+    ]
+  },
+  "menu-item#department-8-category-1": {
+    "props": {
+      "id": "menu-item-department-8-category-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/forn-de-pa",
+        "noFollow": true,
+        "tagTitle": "VEURE TOTS",
+        "text": "VEURE TOTS"
+      }
+    }
+  },
+  "menu-item#department-8-category-2": {
+    "props": {
+      "id": "menu-item-department-8-category-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/forn-de-pa/bases-de-pizza-i-creps",
+        "noFollow": true,
+        "tagTitle": "BASES DE PIZZA I CREPS",
+        "text": "BASES DE PIZZA I CREPS"
+      }
+    }
+  },
+  "menu-item#department-8-category-3": {
+    "props": {
+      "id": "menu-item-department-8-category-3",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/forn-de-pa/brioixeria-i-pastissos",
+        "noFollow": true,
+        "tagTitle": "BRIOIXERIA I PASTISSOS",
+        "text": "BRIOIXERIA I PASTISSOS"
+      }
+    }
+  },
+  "menu-item#department-8-category-4": {
+    "props": {
+      "id": "menu-item-department-8-category-4",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/forn-de-pa/galetes-i-magdalenes",
+        "noFollow": true,
+        "tagTitle": "GALETES I MAGDALENES",
+        "text": "GALETES I MAGDALENES"
+      }
+    }
+  },
+  "menu-item#department-8-category-5": {
+    "props": {
+      "id": "menu-item-department-8-category-5",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/forn-de-pa/pa-de-motlle",
+        "noFollow": true,
+        "tagTitle": "PA DE MOTLLE",
+        "text": "PA DE MOTLLE"
+      }
+    }
+  },
+  "menu-item#department-8-category-6": {
+    "props": {
+      "id": "menu-item-department-8-category-6",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/forn-de-pa/pa-torrat",
+        "noFollow": true,
+        "tagTitle": "PA TORRAT",
+        "text": "PA TORRAT"
+      }
+    }
+  },
+  "menu-item#department-8-category-7": {
+    "props": {
+      "id": "menu-item-department-8-category-7",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/forn-de-pa/palets-i-panets-torrats",
+        "noFollow": true,
+        "tagTitle": "PALETS I PANETS TORRATS",
+        "text": "PALETS I PANETS TORRATS"
+      }
+    }
+  },
+  "menu-item#department-8-category-8": {
+    "props": {
+      "id": "menu-item-department-8-category-8",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/forn-de-pa/tortitas",
+        "noFollow": true,
+        "tagTitle": "TORTITAS",
+        "text": "TORTITAS"
+      }
+    }
+  },
+  "menu-item#department-8-category-9": {
+    "props": {
+      "id": "menu-item-department-8-category-9",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Department 8 Category 9",
+        "text": ""
+      }
+    }
+  },
+  "menu-item#department-8-category-10": {
+    "props": {
+      "id": "menu-item-department-8-category-10",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Department 8 Category 10",
+        "text": ""
+      }
+    }
+  },
+  "flex-layout.col#department-8-submenu-col-2": {
+    "children": [
+      "flex-layout.row#department-8-banner-1",
+      "flex-layout.row#department-8-banner-2"
+    ],
+    "title": "Right Category Banners"
+  },
+  "flex-layout.row#department-8-banner-1": {
+    "children":["image#department-8-banner-1"],
+    "props": {
+      }
+  },
+  "image#department-8-banner-1":{
+    "props":{
+      "src": "/arquivos/Banners-bases-pizzes-275X102.jpg?v=636947125922800000",
+      "maxHeight": 200
+    },
+    "title": "Top Banner"
+  },
+  "flex-layout.row#department-8-banner-2": {
+    "children":["image#department-8-banner-2"],
+    "props": {
+      }
+  },
+  "image#department-8-banner-2":{
+    "props":{
+      "src": "/arquivos/Banners-madalenes-275X102.jpg?v=636947128056730000",
+      "maxHeight": 200
+    },
+    "title": "Bottom Banner"
+  },
+  "menu-item#department-9": {
+    "props": {
+      "id": "menu-item-department-9",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/begudes",
+        "noFollow": true,
+        "tagTitle": "BEGUDES",
+        "text": "BEGUDES"
+      },
+      "blockClass":"header-department-title"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#department-9"
+    ]
+  },
+  "vtex.menu@2.x:submenu#department-9": {
+    "props": {
+      "width": "100%"
+      
+    },
+    "children": [
+      "flex-layout.row#department-9-submenu"
+    ]
+  },
+  "flex-layout.row#department-9-submenu": {
+    "children": [
+      "flex-layout.col#department-9-submenu-col-1",
+      "flex-layout.col#department-9-submenu-col-2"
+    ]
+  },
+  "flex-layout.col#department-9-submenu-col-1": {
+    "children": [
+      "vtex.menu@2.x:menu#department-9-submenu"
+    ],
+    "title": "Left Category Links"
+  },
+  "vtex.menu@2.x:menu#department-9-submenu": {
+    "props": {
+      "orientation": "vertical",
+      "tagTitle": "Submenu"
+    },
+    "children": [
+      "menu-item#department-9-category-1",
+      "menu-item#department-9-category-2",
+      "menu-item#department-9-category-3",
+      "menu-item#department-9-category-4",
+      "menu-item#department-9-category-5",
+      "menu-item#department-9-category-6",
+      "menu-item#department-9-category-7",
+      "menu-item#department-9-category-8",
+      "menu-item#department-9-category-9",
+      "menu-item#department-9-category-10"
+    ]
+  },
+  "menu-item#department-9-category-1": {
+    "props": {
+      "id": "menu-item-department-9-category-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/begudes",
+        "noFollow": true,
+        "tagTitle": "VEURE TOTS",
+        "text": "VEURE TOTS"
+      }
+    }
+  },
+  "menu-item#department-9-category-2": {
+    "props": {
+      "id": "menu-item-department-9-category-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/begudes/aigua",
+        "noFollow": true,
+        "tagTitle": "AIGUA",
+        "text": "AIGUA"
+      }
+    }
+  },
+  "menu-item#department-9-category-3": {
+    "props": {
+      "id": "menu-item-department-9-category-3",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/begudes/begudes-vegetals-i-orxata",
+        "noFollow": true,
+        "tagTitle": "BEGUDES VEGETALS I ORXATA",
+        "text": "BEGUDES VEGETALS I ORXATA"
+      }
+    }
+  },
+  "menu-item#department-9-category-4": {
+    "props": {
+      "id": "menu-item-department-9-category-4",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/begudes/cafe-te-i-infusions",
+        "noFollow": true,
+        "tagTitle": "CAFÉ, TE I INFUSIONS",
+        "text": "CAFÉ, TE I INFUSIONS"
+      }
+    }
+  },
+  "menu-item#department-9-category-5": {
+    "props": {
+      "id": "menu-item-department-9-category-5",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/begudes/cervesa",
+        "noFollow": true,
+        "tagTitle": "CERVESA",
+        "text": "CERVESA"
+      }
+    }
+  },
+  "menu-item#department-9-category-6": {
+    "props": {
+      "id": "menu-item-department-9-category-6",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/begudes/refrescs",
+        "noFollow": true,
+        "tagTitle": "REFRESCS",
+        "text": "REFRESCS"
+      }
+    }
+  },
+  "menu-item#department-9-category-7": {
+    "props": {
+      "id": "menu-item-department-9-category-7",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/begudes/sucs-i-smoothies",
+        "noFollow": true,
+        "tagTitle": "SUCS I SMOOTHIES",
+        "text": "SUCS I SMOOTHIES"
+      }
+    }
+  },
+  "menu-item#department-9-category-8": {
+    "props": {
+      "id": "menu-item-department-9-category-8",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/begudes/vi-cava-i-vermut",
+        "noFollow": true,
+        "tagTitle": "VI, CAVA I VERMUT",
+        "text": "VI, CAVA I VERMUT"
+      }
+    }
+  },
+  "menu-item#department-9-category-9": {
+    "props": {
+      "id": "menu-item-department-9-category-9",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Department 9 Category 9",
+        "text": ""
+      }
+    }
+  },
+  "menu-item#department-9-category-10": {
+    "props": {
+      "id": "menu-item-department-9-category-10",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Department 9 Category 10",
+        "text": ""
+      }
+    }
+  },
+  "flex-layout.col#department-9-submenu-col-2": {
+    "children": [
+      "flex-layout.row#department-9-banner-1",
+      "flex-layout.row#department-9-banner-2"
+    ],
+    "title": "Right Category Banners"
+  },
+  "flex-layout.row#department-9-banner-1": {
+    "children":["image#department-9-banner-1"],
+    "props": {
+      }
+  },
+  "image#department-9-banner-1":{
+    "props":{
+      "src": "/arquivos/Banners-smoothies-275X102.jpg?v=636947130721870000",
+      "maxHeight": 200
+    },
+    "title": "Top Banner"
+  },
+  "flex-layout.row#department-9-banner-2": {
+    "children":["image#department-9-banner-2"],
+    "props": {
+      }
+  },
+  "image#department-9-banner-2":{
+    "props":{
+      "src": "/arquivos/Banners-vermut-275X102.jpg?v=636947130982070000",
+      "maxHeight": 200
+    },
+    "title": "Bottom Banner"
+  },
+  "menu-item#department-10": {
+    "props": {
+      "id": "menu-item-deparment-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/promocions",
+        "noFollow": true,
+        "tagTitle": "PROMOCIONS",
+        "text": "PROMOCIONS"
+      },
+      "blockClass":"header-promotions-title"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#department-10"
+    ]
+  },
+  "vtex.menu@2.x:submenu#department-10": {
+    "props": {
+      "width": "100%"
+      
+    },
+    "children": [
+      "info-card#promoheader"
+    ]
+  },
+  "flex-layout.row#department-10-submenu": {
+    "children": [
+      
+    ]
+  },
+  
+  "info-card#promoheader": {
+    "props": {
+      "id": "info-card-promoheader",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://ametllerorigen.cat/media/custom/banners/File-1582708387.jpg",
+      "headline": "Mejores promos",
+      "callToActionText": "Navegar",
+      "callToActionUrl": "/promocions",
+      "blockClass": "info-card-home",
+      "textAlignment": "center"
+    },
+    "title": "Infocard Promotions"
+  }
+}

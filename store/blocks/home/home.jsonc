@@ -1,0 +1,165 @@
+{
+  "store.home": {
+    "blocks": [
+      "responsive-layout.desktop#home",
+      "responsive-layout.mobile#home"
+    ]
+  },
+  "responsive-layout.desktop#home":{
+    "children":[
+      "flex-layout.row#main-slider-banner",
+      /* You can make references to blocks defined in other files.
+       * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
+      "__fold__.experimentalLazyAssets",
+      "rich-text#home-bannerrow1-title",
+      "flex-layout.row#home-bannerrow1",
+      "rich-text#home-shelf1-title",
+      "flex-layout.row#home-shelf1",
+      "rich-text#home-bannerrow2-title",
+      "flex-layout.row#home-bannerrow2",
+      "rich-text#home-shelf2-title",
+      "flex-layout.row#home-shelf2",
+      "info-card#home",
+      "newsletter"
+    ]
+  },
+  "responsive-layout.mobile#home":{
+    "children":[
+      "list-context.image-list#demo",
+      /* You can make references to blocks defined in other files.
+       * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
+      "__fold__.experimentalLazyAssets",
+      "rich-text#home-bannerrow1-title",
+      "flex-layout.row#home-bannerrow1",
+      "rich-text#home-shelf1-title",
+      "flex-layout.row#home-shelf1",
+      "newsletter"
+    ]
+  },
+  "shelf#home": {
+    "blocks": ["product-summary.shelf"]
+  },
+  "flex-layout.row#main-slider-banner": {
+    "children": [
+      "list-context.image-list#demo"
+    ],
+    "title": "HOME - Main Banner",
+    "props": {
+      "blockClass":"rowMainBanner",
+      "fullWidth": "true"
+    }
+  },
+  "list-context.image-list#demo": {
+    "children": ["slider-layout#demo-images"],
+    "title": "Main Banners",
+    "props": {
+      "height": 300,
+      "images": [
+        {
+          "image": "https://ametllerorigen.vteximg.com.br/arquivos/ids/164693/megabanner-nou-servei-codis-postals-CAT.jpg?v=637212358412800000",
+          "mobileImage": "https://ametllerorigen.vteximg.com.br/arquivos/ids/164693/megabanner-nou-servei-codis-postals-CAT.jpg?v=637212358412800000"
+        },
+        {
+          "image": "https://ametllerorigen.vteximg.com.br/arquivos/ids/164724/Megabbaner-formatges-autor-sebastien-CAT.jpg?v=637213544713270000",
+          "mobileImage": "https://ametllerorigen.vteximg.com.br/arquivos/ids/164724/Megabbaner-formatges-autor-sebastien-CAT.jpg?v=637213544713270000"
+        },
+        {
+          "image": "https://ametllerorigen.vteximg.com.br/arquivos/ids/164691/JordiMorera_Sampling_Motion_CAT.gif?v=637210184815330000",
+          "mobileImage": "https://ametllerorigen.vteximg.com.br/arquivos/ids/164691/JordiMorera_Sampling_Motion_CAT.gif?v=637210184815330000"
+        }
+      ]
+    }
+  },
+  "slider-layout#demo-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    }
+  },
+  "rich-text#home-shelf1-title": {
+    "props": {
+      "text": "**PRODUCTES DESTACATS**",
+      "blockClass": "home-shelf-title"
+    },
+    "title": "HOME - Top Shelf Title"
+  },
+  "flex-layout.row#home-shelf1": {
+    "children": ["list-context.product-list#home1"],
+    "title": "HOME - Top Shelf"
+  },
+  "list-context.product-list#home1": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#home-shelf1"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    },
+    "title": "Shelf Configurations"
+  },
+  "slider-layout#home-shelf1": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": true,
+      "blockClass": "home-shelf"
+    }
+  },
+  "rich-text#home-shelf2-title": {
+    "props": {
+      "text": "**PRODUCTES DESTACATS**",
+      "blockClass": "home-shelf-title"
+    },
+    "title": "HOME - Bottom Shelf Title"
+  },
+  "flex-layout.row#home-shelf2": {
+    "children": ["list-context.product-list#home2"],
+    "title": "HOME - Bottom Shelf",
+    "props": {
+      "paddingBottom": 7
+    }
+  },
+  "list-context.product-list#home2": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#home-shelf2"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "category": "4"
+    },
+    "title": "Shelf Configurations"
+  },
+  "slider-layout#home-shelf2": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": true,
+      "blockClass": "home-shelf"
+    }
+  },
+  "info-card#home": {
+    "props": {
+      "id": "info-card-home",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "/arquivos/people_bg.jpg",
+      "headline": "QUÈ ÉS AMETLLER ORIGEN?",
+      "callToActionText": "Més informació",
+      "callToActionUrl": "/sobre-nosaltres",
+      "blockClass": "info-card-home",
+      "textAlignment": "center"
+    },
+    "title": "HOME - Infocard"
+  }
+}

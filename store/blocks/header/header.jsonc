@@ -1,0 +1,192 @@
+{
+  "header": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header.full": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header-layout.desktop": {
+    "children": [
+      "flex-layout.row#1-desktop",
+      "flex-layout.row#2-desktop",
+      "sticky-layout#4-desktop"
+    ]
+  },
+
+  "flex-layout.row#1-desktop": {
+    "children": ["telemarketing"],
+    "props": {
+      "fullWidth": true
+    },
+    "title": "HEADER Desktop - Assisted Sales"
+  },
+
+  "flex-layout.row#2-desktop": {
+    "children": ["notification.bar#home"],
+    "props": {
+      "fullWidth": "true"
+    },
+    "title": "HEADER Desktop - Notification Bar"
+  },
+  "notification.bar#home": {
+    "props": {
+      "content": "En aquests moments no podem oferir-te dates de lliurament. Tornarem a tenir disponibilitat a partir de dissabte 28 de març."
+    },
+    "title": "Text"
+  },
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow"
+    },
+    "title": "Spacer"
+  },
+  "sticky-layout#4-desktop": {
+    "props": {
+      "blockClass": "sticky-header"
+    },
+    "children": [
+      "flex-layout.row#3-desktop",
+      "flex-layout.row#4-desktop"
+    ],
+    "title": "HEADER Desktop - Main Row"
+  },
+  "flex-layout.row#3-desktop": {
+    "props": {
+      "blockClass": "main-header",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#logo-desktop",
+      "flex-layout.col#spacer",
+      "flex-layout.col#search",
+      "flex-layout.col#spacer",
+      "flex-layout.col#store-selector",
+      "locale-switcher",
+      "flex-layout.col#register",
+      "login",
+      "minicart.v2"
+    ],
+    "title": "Top Row"
+  },
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["logo#desktop"],
+    "title": "Desktop Logo"
+  },
+  "logo#desktop": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/logoNeu2.png",
+      "width": "70"
+    },
+    "title": "Only Logo"
+  },
+  "flex-layout.col#search": {
+    "props": {
+      "verticalAlign": "middle",
+      "width":"grow"
+    },
+    "children": ["search-bar"],
+    "title": "Search Bar"
+  },
+  "flex-layout.col#store-selector": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["location-selector"],
+    "title": "Store Selector"
+  },
+  "flex-layout.col#register": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["rich-text#register"],
+    "title": "Fes-te del club"
+  },
+  "rich-text#register": {
+    "props": {
+      "text": "[Fes-te del club](/fes-te-del-club)",
+      "blockClass": "register"
+    },
+    "title": "Register CTA"
+  },
+
+  "flex-layout.row#4-desktop":{
+    "props": {
+      "blockClass": "main-header-category-menu",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "flex-layout.col#category-menu"
+    ],
+    "title": "Bottom Row"
+  },
+  "header-layout.mobile": {
+    "children": ["sticky-layout#1-mobile"]
+  },
+  "sticky-layout#1-mobile": {
+    "children": [
+      "flex-layout.row#1-mobile",
+      "flex-layout.row#2-mobile"
+    ],
+    "title": "HEADER Mobile - Bottom Row"
+  },
+  "flex-layout.row#1-mobile": {
+    "children": [
+      "drawer",
+      "logo#desktop",
+      "flex-layout.col#spacer",
+      "login",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "main-header-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "flex-layout.row#2-mobile": {
+    "children": [
+      "flex-layout.col#search"
+    ],
+    "props": {
+      "blockClass": "main-header-mobile-searchbar",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "drawer": {
+    "children": ["menu#drawer"]
+  },
+
+  "menu#drawer": {
+    "children": [
+      "menu-item#department-1",
+      "menu-item#department-2",
+      "menu-item#department-3",
+      "menu-item#department-4",
+      "menu-item#department-5",
+      "menu-item#department-6",
+      "menu-item#department-7",
+      "menu-item#department-8",
+      "menu-item#department-9",
+      "menu-item#department-10"
+      
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  }
+}

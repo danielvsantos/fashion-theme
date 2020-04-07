@@ -1,0 +1,58 @@
+
+/* General */
+
+.submenuWrapper {
+    max-width: 700px;
+    background-color: #F7F7F1;
+}
+
+/* Header */
+
+
+@media screen and (min-width: 40em) {
+  .styledLinkContent--header-department-title{
+    color: #3D350B;
+  }
+}
+
+@media screen and (min-width: 50em) {
+  .styledLinkContent--header-department-title{
+    color: #3D350B;
+  }
+}
+
+
+@media screen and (min-width: 64em) {
+  .styledLinkContent--header-department-title{
+    color: #FFFFFF;
+  }
+}
+
+@media screen and (min-width: 82em) {
+  .styledLinkContent--header-department-title{
+    color: #FFFFFF;
+  }
+}
+
+.styledLinkContent--header-promotions-title{
+  color: #FFFFFF;
+
+}
+.styledLinkContainer--header-promotions-title{
+  background-color: red;
+}
+
+/* Footer */
+
+.styledLinkContent--links-footer {
+  color: #3D350B;
+}
+
+.styledLinkContent--main-links-footer {
+  font-size: 16px;
+  font-weight: bold;
+  color: #3D350B;
+}
+
+
+  

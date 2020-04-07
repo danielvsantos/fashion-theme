@@ -1,0 +1,23 @@
+{
+  "store.custom#about-us": {
+    "path": "/sobre-nosaltres"
+  },
+  "store.custom#registration": {
+    "path": "/fes-te-del-club"
+  },
+  "store.custom#contact": {
+    "path": "/atencio-al-client/contacte"
+  },
+  "store.custom#atencio": {
+    "path": "/atencio-al-client"
+  },
+  "store.custom#institutional": {
+    "path": "/faqs"
+  },
+  "store.custom#promocions": {
+    "path": "/promocions"
+  },
+  "store.custom#cart": {
+    "path": "/cart"
+  }
+}

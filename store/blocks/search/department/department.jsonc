@@ -1,0 +1,235 @@
+{
+  "store.search#department": {
+    "blocks": [
+        "search-result-layout#department"
+    ]
+  },
+  "search-result-layout#department":{
+      "blocks": [
+        "search-result-layout.desktop#department",
+        "search-result-layout.mobile#department"
+      ]
+  },
+  "search-result-layout.desktop#department": {
+    "children": [
+      "flex-layout.row#searchbread",
+      "flex-layout.row#department-header",
+      "rich-text#department-bannerrow1-title",
+      "flex-layout.row#department-bannerrow1",
+      "__fold__.experimentalLazyAssets",
+      "flex-layout.row#department-shelf1-title",
+      "flex-layout.row#department-shelf1",
+      "flex-layout.row#department-shelf2-title",
+      "flex-layout.row#department-shelf2",
+      "flex-layout.row#department-all-products",
+      "flex-layout.row#result"
+    ],
+    "props": {
+      "pagination": "show-more",
+      "preventRouteChange": true,
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      },
+      "context": {
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "default",
+        "hideUnavailableItems": "true"
+      },
+      "showFacetQuantity": "true",
+      "hiddenFacets": {
+        "specificationFilters": {
+          "hiddenFilters":[
+          
+          ]
+        }
+      }
+    }
+  },
+  "flex-layout.row#department-header": {
+    "children": [
+      "flex-layout.col#department-icon",
+      "flex-layout.col#department-title-description"
+    ]
+  },
+  "flex-layout.col#department-icon": {
+    "children": [
+      "image#department-icon"
+    ],
+    "props": {
+      "width": "25%",
+      "horizontalAlign": "center",
+      "verticalAlign": "top"
+    }
+  },
+  "image#department-icon": {
+    "props": {
+      "src": "https://www.ametllerorigen.com/arquivos/cat_fruita.png?v=636861699841970000"
+    },
+    "title": "Department Icon"
+  },
+  "flex-layout.col#department-title-description": {
+    "children": [
+      "flex-layout.row#department-title",
+      "flex-layout.row#department-description"
+    ],
+    "props": {
+      "width": "75%",
+      "horizontalAlign": "left"
+    }
+  },
+  "flex-layout.row#department-title": {
+    "children": [
+      "search-title.v2"
+    ],
+    "props": {
+      "blockClass": "department-tile"
+    }
+  },
+  "flex-layout.row#department-description": {
+    "children": [
+      "rich-text#department-description"
+    ]
+  },
+  "rich-text#department-description": {
+    "props": {
+      "text": "El nostre compromís amb la qualitat i la proximitat fan que conreem la major part de les nostres fruites de temporada com les Pomes, Peres, Raïms o Taronges en camps propis. Per a les fruites exòtiques i tropicals, com els Alvocats, Plàtans, Mangos, Kiwis i Cocos, treballem amb proveïdors de confiança. A més, també tenim una variada selecció de fruita seca i llavors, com a Festucs, Nous, Anacards o Ametlles.",
+      "blockClass": "department-description"
+    },
+    "title": "Department Description"
+  },
+"flex-layout.row#department-shelf1-title": {
+    "children": [
+      "rich-text#department-shelf1-title"
+    ],
+    "props":{
+      "horizontalAlign": "left"
+    }
+  },
+  "rich-text#department-shelf1-title": {
+    "props": {
+      "text": "**ELS MILLORS CANELONS I LASANYA**",
+      "blockClass": "department-shelf-title"
+    },
+    "title": "DEPARTMENT - Shelf 1 Title"
+  },
+  "rich-text#department-shelf1-seemore": {
+    "props": {
+      "text": "Veure mas",
+      "blockClass": "department-shelf-seemore"
+    },
+    "title": "DEPARTMENT - Shelf 1 See More"
+  },
+  "flex-layout.row#department-shelf1": {
+    "children": ["list-context.product-list#department1"],
+    "title": "DEPARTMENT - Shelf 1"
+  },
+  "list-context.product-list#department1": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#department-shelf1"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "category": "4/67"
+    },
+    "title": "Shelf Configurations"
+  },
+  "slider-layout#department-shelf2": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": true,
+      "blockClass": "department-shelf"
+    }
+  },
+  "flex-layout.row#department-shelf2-title": {
+      "children": [
+        "rich-text#department-shelf2-title"
+      ],
+      "props":{
+        "horizontalAlign": "left"
+      }
+    },
+    "rich-text#department-shelf2-title": {
+      "props": {
+        "text": "**CREMES I SOPES**",
+        "blockClass": "department-shelf-title"
+      },
+      "title": "DEPARTMENT - Shelf 2 Title"
+    },
+    "rich-text#department-shelf2-seemore": {
+      "props": {
+        "text": "Veure mas",
+        "blockClass": "department-shelf-seemore"
+      },
+      "title": "DEPARTMENT - Shelf 2 See More"
+    },
+    "flex-layout.row#department-shelf2": {
+      "children": ["list-context.product-list#department2"],
+      "title": "DEPARTMENT - Shelf 2"
+    },
+    "list-context.product-list#department2": {
+      "blocks": ["product-summary.shelf"],
+      "children": ["slider-layout#department-shelf2"],
+      "props": {
+        "orderBy": "OrderByTopSaleDESC",
+        "category": "4/68"
+      },
+      "title": "Shelf Configurations"
+    },
+    "slider-layout#department-shelf1": {
+      "props": {
+        "itemsPerPage": {
+          "desktop": 5,
+          "tablet": 3,
+          "phone": 1
+        },
+        "infinite": true,
+        "fullWidth": true,
+        "blockClass": "department-shelf"
+      }
+    },
+    "flex-layout.row#department-all-products": {
+      "children": [
+        "rich-text#department-all-products"
+      ],
+      "props":{
+        "horizontalAlign": "center"
+      }
+    },
+    "rich-text#department-all-products": {
+      "props": {
+        "text": "**TOTS LE PRODUCTS**",
+        "blockClass": "department-shelf-title"
+      },
+      "title": "DEPARTMENT - All products title"
+    },
+    "search-result-layout.mobile#department": {
+      "children": [
+        "flex-layout.row#searchbread",
+        "search-title.v2",
+        "flex-layout.row#department-shelf1-title",
+        "flex-layout.row#department-shelf1",
+        "__fold__.experimentalLazyAssets",
+        "flex-layout.row#department-shelf2-title",
+        "flex-layout.row#department-shelf2",
+        "flex-layout.row#department-all-products"
+      ],
+      "props": {
+        "pagination": "show-more",
+        "preventRouteChange": true,
+        "mobileLayout": {
+          "mode1": "small",
+          "mode2": "normal"
+        },
+        "context": {
+          "skusFilter": "FIRST_AVAILABLE",
+          "simulationBehavior": "default",
+          "hideUnavailableItems": "true"
+        }
+      }
+    }
+}
